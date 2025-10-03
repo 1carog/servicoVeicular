@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Checklist Veicular</title>
+</head>
+<body>
+    <div class="container">
+    <div class="topo-do-site">
+        <h2>Checklist de Serviço Veícular</h2>
+        <!--<img src="img/chave.png" alt="chave de carro">-->
+    </div><!--topo-do-site-->
+
+    <form id="formChecklist">
+    <div class="caixas">
+    <input type="date" id="data" placeholder="Data do serviço" required>
+    <input type="text" id="local" placeholder="Local do serviço" required>
+    <input type="text" id="servico" placeholder="Serviço realizado" required>
+    <input type="number" id="km" placeholder="KM atual do veículo" min="0" required>
+    </div><!--caixas-->
+
+    <div class="botao">
+    <button onclick="salvar()">Salvar</button>
+    </div><!--botao-->
+    </form>
+
+    </div><!--container-->
+    <script src="js/script.js"></script>
+</body>
+</html>
