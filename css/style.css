@@ -19,11 +19,22 @@ h2{
     text-align: center;
 }
 
-.topo-do-site img{
-    width: 3%;
-    display: block;
-    margin-left: 50%;
-    margin-right: 50%;
+/* .topo-do-site img{ */
+    /* width: 3%; */
+    /* display: block; */
+    /* margin-left: 50%; */
+    /* margin-right: 50%; */
+/* } */
+
+input{
+    width: 80%;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #0D47A1;
+}
+
+input:not(#local, #servico, #km){
+    width: 50%;
 }
 
 #data{
@@ -31,6 +42,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
+    text-align: center;
 }
 
 #local{
