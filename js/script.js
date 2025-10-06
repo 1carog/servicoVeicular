@@ -23,3 +23,7 @@ form.addEventListener("submit", (e) => {
     // Redireciona para a página de histórico
     window.location.href = "historico.html";
 });
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/service-worker.js");
+}

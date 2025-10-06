@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
     <title>Checklist Veicular</title>
 </head>
 <body>
     <div class="container">
     <div class="topo-do-site">
-        <h2>Checklist de Serviço Veícular</h2>
-        <!--<img src="img/chave.png" alt="chave de carro">-->
+        <h2>Checklist de <br> Serviço Veícular <br></h2>
     </div><!--topo-do-site-->
 
     <form id="formChecklist">
@@ -21,8 +21,10 @@
     <input type="number" id="km" placeholder="KM atual do veículo" min="0" required>
     </div><!--caixas-->
 
+    <a href="http://127.0.0.1:5500/historico.html" target="_blank" class="btn-acesso">Lista de serviços realizados</a>
+
     <div class="botao">
-    <button onclick="salvar()">Salvar</button>
+        <button onclick="salvar()">Salvar</button>
     </div><!--botao-->
     </form>
 

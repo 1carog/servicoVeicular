@@ -15,16 +15,9 @@ body{
 
 h2{
     color: #0D47A1;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
 }
-
-/* .topo-do-site img{ */
-    /* width: 3%; */
-    /* display: block; */
-    /* margin-left: 50%; */
-    /* margin-right: 50%; */
-/* } */
 
 input{
     width: 80%;
@@ -66,6 +59,20 @@ input:not(#local, #servico, #km){
     margin-top: 4%;
 }
 
+.btn-acesso{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.btn-acesso:hover{
+    transition: 0.3s ease;
+    transform: scale(0.95);
+    color: #0a326e;
+}
+
 .botao{
     display: flex;
     justify-content: center;
@@ -73,7 +80,7 @@ input:not(#local, #servico, #km){
     margin-top: 20px;
 }
 
-button{
+.botao button{
     padding: 10px;
     margin-top: 12px;
     border: none;
@@ -84,8 +91,9 @@ button{
     cursor: pointer; 
 }
 
-button:hover{
+.botao button:hover{
     background-color: #0D47A1;
+    transform: scale(1.05);
     transition: 0.3s;
 }
 
