@@ -1,6 +1,6 @@
 {
-  "name": "Meu App",
-  "short_name": "App",
+  "name": "Checklist Veicular",
+  "short_name": "Serviços veicular",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
