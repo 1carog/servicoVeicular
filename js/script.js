@@ -24,6 +24,6 @@ form.addEventListener("submit", (e) => {
     window.location.href = "historico.html";
 });
 
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./service-worker.js");
-}
+// if ("serviceWorker" in navigator) {
+  // navigator.serviceWorker.register("./sw.js");
+// }
