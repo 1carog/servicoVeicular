@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F0F2F5;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: #0D47A1;
+    font-size: 28px;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #0D47A1;
+}
+
+input:not(#local, #servico, #km){
+    width: 50%;
+}
+
+#data{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    text-align: center;
+}
+
+#local{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+
+#servico{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+
+#km{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+
+.btn-acesso{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #0a326e;
+}
+
+.btn-acesso:hover{
+    transition: 0.3s ease;
+    transform: scale(0.95);
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.botao button{
+    padding: 10px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #FF8C00;
+    color: #F0F2F5;
+    font-size: 14px;
+    cursor: pointer; 
+}
+
+.botao button:hover{
+    background-color: #0D47A1;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.caixas{
+    margin-top: 4%;
+}
+
+input::placeholder{
+    font-size: 12px;
+}
+
+input{
+    padding-left: 10px;
+    border: 2px solid #0D47A1;
+}
+
+.container{
+    background: #F0F2F5;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 320px;
+    text-align: center;
+}

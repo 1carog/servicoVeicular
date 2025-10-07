@@ -8,27 +8,21 @@
     <title>Checklist Veicular</title>
 </head>
 <body>
-    <div class="container">
-    <div class="topo-do-site">
-        <h2>Checklist de <br> Serviço Veicular <br></h2>
-    </div><!--topo-do-site-->
+    <img src="img/Logo.png" alt="Imagem da Logo">
 
-    <form id="formChecklist">
-    <div class="caixas">
-    <input type="date" id="data" placeholder="Data do serviço" required>
-    <input type="text" id="local" placeholder="Local do serviço" required>
-    <input type="text" id="servico" placeholder="Serviço realizado" required>
-    <input type="number" id="km" placeholder="KM atual do veículo" min="0" required>
-    </div><!--caixas-->
+    <h4>
+        Gerencie os serviços <br>
+        feitos em seu veículo <br>
+        e mantenha-se atento <br>
+        as próximas revisões.
+    </h4>
 
-    <a href="./historico.html" class="btn-acesso">Lista de serviços realizados</a>
+    <div class="btn-avancar">
+    <button onclick="avancar()">AVANÇAR</button>
+    </div><!--btn-avancar-->
 
-    <div class="botao">
-        <button onclick="salvar()">Salvar</button>
-    </div><!--botao-->
-    </form>
+    <footer>by Ícaro Barbosa</footer>
 
-    </div><!--container-->
     <script src="js/script.js"></script>
 
     <script>
@@ -36,6 +30,5 @@
         navigator.serviceWorker.register('./sw.js');
         }
     </script>
-
 </body>
 </html>
