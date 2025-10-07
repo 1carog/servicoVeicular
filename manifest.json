@@ -1,7 +1,7 @@
 {
   "name": "Checklist Veicular",
-  "short_name": "Serviços veicular",
-  "start_url": "./index.html",
+  "short_name": "Serviços Veicular",
+  "start_url": "./pagina-inicial.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
